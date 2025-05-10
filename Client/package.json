@@ -29,5 +29,18 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "it is a portfolio website.",
+  "main": "App.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShirinHajiesmaeili/iTiN.git"
+  },
+  "author": "Shirin Hajiesmaeili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShirinHajiesmaeili/iTiN/issues"
+  },
+  "homepage": "https://github.com/ShirinHajiesmaeili/iTiN#readme",
+  "keywords": []
 }
