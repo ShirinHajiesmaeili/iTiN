@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: itin-server
-    env: node
-    plan: free
-    buildCommand: cd server && yarn install
-    startCommand: cd server && yarn start
-    rootDir: server
-    autoDeploy: true
