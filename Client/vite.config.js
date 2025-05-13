@@ -4,6 +4,9 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/", // ✅ important for correct path resolution
+  base: "/",
   plugins: [react(), tailwindcss()],
+  preview: {
+    allowedHosts: ["www.itin-tech.com"],
+  },
 });
