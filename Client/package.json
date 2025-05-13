@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview --port 8080"
   },
   "dependencies": {
     "react": "^19.1.0",
