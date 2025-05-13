@@ -7,7 +7,9 @@ import cors from "cors";
 import nodemailer from "nodemailer";
 
 const app = express();
-const port = 5001;
+
+// Use environment's PORT or default to 5001 for local development
+const port = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors());
