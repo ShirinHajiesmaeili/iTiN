@@ -6,7 +6,12 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/",
   plugins: [react(), tailwindcss()],
+  build: {
+    outDir: "dist", // Make sure the output directory is correctly set
+    assetsDir: "assets", // Optional: customize the assets folder
+    // You can also configure other build options here if needed
+  },
   preview: {
-    allowedHosts: ["www.itin-tech.com"],
+    allowedHosts: ["www.itin-tech.com"], // For local preview, but not critical for production
   },
 });
