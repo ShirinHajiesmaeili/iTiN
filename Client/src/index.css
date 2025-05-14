@@ -1,6 +1,3 @@
-@import "tailwind/preflight";
-@import "tailwind/utilities";
-
 @font-face {
   font-family: "Kodchasan";
   src: url("/src/assets/fonts/Kodchasan-Light.ttf") format("truetype");
