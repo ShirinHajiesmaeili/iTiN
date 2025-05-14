@@ -7,11 +7,14 @@ export default defineConfig({
   base: "/",
   plugins: [react(), tailwindcss()],
   build: {
-    outDir: "dist", // Make sure the output directory is correctly set
-    assetsDir: "assets", // Optional: customize the assets folder
-    // You can also configure other build options here if needed
+    outDir: "dist",
+    assetsDir: "assets",
   },
   preview: {
-    allowedHosts: ["www.itin-tech.com"], // For local preview, but not critical for production
+    allowedHosts: [
+      "www.itin-tech.com",
+      "itin-tech.com",
+      "itin-frontend-2kr4.onrender.com", // ✅ ADD THIS
+    ],
   },
 });
