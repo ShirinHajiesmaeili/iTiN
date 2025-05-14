@@ -9,7 +9,10 @@
   font-style: normal;
 }
 
-/* Optional: Custom CSS variable for the font */
 :root {
   --font-kodchasan: "Kodchasan", sans-serif;
+}
+
+body {
+  font-family: var(--font-kodchasan);
 }
