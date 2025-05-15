@@ -1,13 +1,16 @@
 @font-face {
   font-family: "Kodchasan";
-  src: url("/src/public/fonts/Kodchasan-Light.ttf") format("truetype");
+  src: url("/fonts/Kodchasan-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-/* Tailwind CSS import (if using PostCSS) */
-@import "tailwindcss";
+/* Import Tailwind base styles (v4 uses built-in layers) */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-@theme {
-  --font-kodchasan: Kodchasan, "sans-serif";
+/* Custom properties or theme variables */
+:root {
+  --font-kodchasan: "Kodchasan", sans-serif;
 }
