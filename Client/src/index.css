@@ -1,9 +1,13 @@
 @font-face {
   font-family: "Kodchasan";
   src: url("/src/assets/fonts/Kodchasan-Light.ttf") format("truetype");
-  font-weight: 300; /* Light weight is usually 300 */
+  font-weight: normal;
   font-style: normal;
 }
 
 /* Tailwind CSS import (if using PostCSS) */
 @import "tailwindcss";
+
+@theme {
+  --font-kodchasan: Kodchasan, "sans-serif";
+}
