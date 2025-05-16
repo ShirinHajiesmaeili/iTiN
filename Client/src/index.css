@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Kodchasan";
   src: url("fonts/Kodchasan-Light.ttf") format("truetype");
